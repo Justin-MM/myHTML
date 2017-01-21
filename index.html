@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel='stylesheet' type= 'text/css' href='topnav.css'></link>
+<link rel='stylesheet' type= 'text/css' href='mainpage.css'></link>
+<link rel='stylesheet' type= 'text/css' href='loginform.css'></link>
+
+</head>
+<style type="text/css">
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+        #wrapper {
+            min-height: 100%; 
+        }
+    </style>
+<body>
+<div id=wrapper >
+
+<div id="myNav" class="overlay">
+  <ul class="topnav" id="myTopnav">
+  <li><a href="#Sign up">Sign up</a></li>
+  <li><a href="#home">Home</a></li>
+  <li class="icon">
+    <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+  </li>
+</ul>
+  <!-- Button to close the overlay navigation -->
+ <form action="action_page.php">
+  <div class="imgcontainer">
+    <img src="andela.png" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label><b>Welcome to the Andela Fellows Portal</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit">Login</button>
+    
+  </div>
+
+  
+</form> 
+
+  
+  
+
+</div>
+</div>
+</body>
+</html>
